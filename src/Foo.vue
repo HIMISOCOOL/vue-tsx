@@ -1,8 +1,9 @@
+<script lang="tsx">
+import * as tsx from "vue-tsx-support";
 import HelloWorld from '@/components/HelloWorld.vue'
-import Vue from 'vue'
-
-export default Vue.extend({
+export default tsx.component({
     render() {
         return (<HelloWorld msg={ 'hi' }/>)
     }
 })
+</script>
